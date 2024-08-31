@@ -1,0 +1,75 @@
+.f-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+.f-nav {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+  flex-direction: column;
+}
+.f-nav a:link,
+.f-nav a:visited,
+.social-links a:link,
+.social-links a:visited,
+.fa-link:link,
+.fa-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #aaa;
+  transition: all 0.3s;
+}
+.f-nav a:hover,
+.f-nav a:active,
+.social-links a:hover,
+.social-links a:active,
+.fa-link:hover,
+.fa-link:active {
+  color: #fff;
+}
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.social-links a:link,
+.social-links a:visited {
+  font-size: 2.4rem;
+}
+.f-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+.copyright {
+  font-size: 1.4rem;
+  color: #ddd;
+  line-height: 1.6;
+}
+.f-socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+address p {
+  font-style: normal;
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+address {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+footer .container {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  gap: 6.4rem;
+}
+footer {
+  padding: 12.8rem 3.2rem;
+  background-color: #222;
+  border-top: 1px #ddd solid;
+  color: #ddd;
+}

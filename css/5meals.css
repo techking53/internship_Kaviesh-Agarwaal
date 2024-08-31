@@ -1,0 +1,163 @@
+span.m-subh {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #ccac00;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  letter-spacing: 1.1px;
+}
+.m-title {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 8rem;
+}
+
+div.m-cards {
+  padding-top: 0;
+  gap: 4.8rem;
+  align-items: center;
+}
+
+img.mc-img {
+  width: 100%;
+}
+
+p.mc-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.mc-deets {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.mc-deets li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mc-deets li ion-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #ccac00;
+}
+.mc-deets li span {
+  font-size: 1.8rem;
+  padding-top: 0.4rem;
+}
+
+.mc-tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 10000rem;
+  color: #222;
+}
+
+.tag-g {
+  background-color: #51cf66;
+}
+.tag-l {
+  background-color: #94d82d;
+}
+.tag-y {
+  background-color: #ffd43b;
+}
+
+.mc-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.m-card {
+  box-shadow: rgba(0, 0, 0, 0.486) 0.1rem 0.1rem 1.2rem 0.1rem;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.m-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.349) 0.2rem 0.6rem 2.5rem 0.2rem;
+  transform: translateY(-1rem);
+}
+.mc-text {
+  padding: 4rem;
+  padding-top: 3.2rem;
+}
+
+.m-list ul {
+  list-style: none;
+  display: flex;
+  gap: 1.6rem;
+  flex-direction: column;
+}
+.mli ion-icon {
+  font-size: 3rem;
+  color: #e6c200;
+}
+.mli {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.mli span {
+  font-size: 1.8rem;
+}
+.ml-title {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 2.2rem;
+}
+.m-list {
+  padding: 3.2rem;
+
+  justify-self: center;
+}
+
+.m-cards {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.mh {
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.m-ar {
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.m-arl:link,
+.m-arl:visited {
+  font-size: 1.8rem;
+  color: #222;
+  text-decoration: none;
+  border-bottom: 0.1rem solid currentColor;
+  display: inline-block;
+  padding-bottom: 0.2rem;
+  transition: all 0.3s;
+}
+.m-arl:hover,
+.m-arl:active {
+  border-bottom: 0.1rem solid transparent;
+  color: #ccac00;
+}

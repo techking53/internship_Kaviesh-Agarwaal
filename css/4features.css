@@ -1,0 +1,28 @@
+h2.fi-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2.6rem;
+  color: rgba(0, 0, 0, 60%);
+}
+
+section.featured {
+  padding: 0 0;
+}
+section.featured div.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+div.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+div.logos img {
+  height: 3.2rem;
+  filter: brightness(0%);
+  opacity: 60%;
+}

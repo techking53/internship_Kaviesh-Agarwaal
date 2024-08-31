@@ -1,0 +1,63 @@
+.tests {
+  align-items: center;
+  background-color: #111;
+  color: #eee;
+  grid-template-columns: 1.5fr 1fr;
+  max-width: 200rem;
+  margin: 0 auto;
+  padding: 0;
+}
+.ttext {
+  padding: 0 3.2rem;
+  column-gap: 5.5rem;
+}
+.tc-img {
+  height: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+.tc-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+.tc-auth {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+.t-title {
+  grid-column: span 2;
+  /* width: 55rem; */
+}
+.tt-subh {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #fff7cc;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  letter-spacing: 1.1px;
+}
+.tt-text {
+  font-weight: 700;
+  color: #eee;
+  letter-spacing: -0.5px;
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 4rem;
+}
+.tg-img img {
+  display: block;
+  width: 100%;
+  transition: all 0.3s;
+}
+.tg-img img:hover {
+  transform: scale(1.1);
+}
+.tg-img {
+  overflow: hidden;
+}
+.tgal {
+  gap: 1.6rem;
+  padding: 1.6rem;
+}

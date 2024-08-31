@@ -1,0 +1,60 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  background-color: #111;
+}
+img.logo {
+  height: 5rem;
+}
+nav.head-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+}
+
+li.hn-li a:link,
+li.hn-li a:visited {
+  text-decoration: none;
+  display: inline-block;
+  color: #eee;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.2s;
+}
+
+li.hn-li a:hover,
+li.hn-li a:active {
+  color: #ffd700;
+}
+
+li.hn-li .hncta:visited,
+li.hn-li .hncta:link {
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.9rem;
+  color: #111;
+  background-color: #ffd700;
+}
+li.hn-li .hncta:hover,
+li.hn-li .hncta:active {
+  background-color: #191500;
+  color: #eee;
+  box-shadow: rgba(85, 85, 85, 0.466) 0.1rem 0.1rem 0.8rem 0.1rem;
+}
+
+.btn-mobilenav {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.btn-mobilenav ion-icon {
+  font-size: 4.8rem;
+  color: #eee;
+}
+.btn-mobilenav ion-icon:last-child {
+  display: none;
+}
