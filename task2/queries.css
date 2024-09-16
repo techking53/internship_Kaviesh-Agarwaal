@@ -1,0 +1,103 @@
+@media (max-width:1089px) {
+    .contactinfo{
+        margin-left: 20px;
+    }
+    .text{
+        font-size: 16px;
+    }
+}
+@media (max-width:946px){
+    body{
+        grid-template-columns: 1fr 3fr;
+    }
+    .content{
+        padding: 0 40px;
+    }
+}
+@media (max-width:848px){
+    .info{
+        padding:20px 0;
+    }
+    .title{
+        font-size: 30px;
+        height: 60px;
+    }
+    .text{
+        padding: 20px 50px;
+    }
+}
+@media (max-width:778px){
+    .text{
+        padding: 15px 25px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 691px){
+    .title{
+        font-size: 24px;
+        height: 48px;
+    }
+    .body{
+        grid-template-columns: 2fr 7fr;
+    }
+    .content{
+        padding: 0 20px;
+    }
+    .name{
+        font-size: 40px;
+        line-height: 47px;
+    }
+    .job,.contacttitle{
+        font-size: 25px;
+    }
+    .contactinfo{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    hr{
+        margin: 0;
+    }
+}
+@media (max-width:559px){
+    body{
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .content{
+        height: 95vh;
+        padding: 60px 40px;
+    }
+    hr{
+        margin: 10px auto;
+    }
+    .contactinfo{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .name{
+        font-size: 45px;
+        line-height: 53px;
+    }
+    .job,.contacttitle{
+        font-size: 25px;
+    }
+    .title{
+        letter-spacing: 4px;
+        font-size: 28px;
+    }
+    .info{
+        gap: 6%;
+        padding: 30px 0 20px;
+    }
+    .about .text{
+        padding: 20px 30px;
+    }
+    .education .text, .accomp .text{
+        display: none;
+    }
+    ul{
+        display: block;
+    }
+}
