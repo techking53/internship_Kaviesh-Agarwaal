@@ -1,0 +1,14 @@
+@media (max-width:729px){
+    body{
+        grid-template-columns: 1fr;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .info{
+        padding: 50px 30px;
+        height: auto;
+    }
+    .desc,.cart,hr,.links{
+        width: 100%;
+    }
+}
